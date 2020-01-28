@@ -283,11 +283,11 @@
             },
             {
               "name": "EMAIL_HOST",
-              "value": "[reference(resourceId('Sendgrid.Email/accounts', variables('sendgridAccountName'))).smtpServer]"
+              "value": ""
             },
             {
               "name": "EMAIL_HOST_USER",
-              "value": "[reference(resourceId('Sendgrid.Email/accounts', variables('sendgridAccountName'))).username]"
+              "value": ""
             },
             {
               "name": "EMAIL_HOST_PASSWORD",
