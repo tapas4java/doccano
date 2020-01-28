@@ -235,11 +235,11 @@
           "appSettings": [
             {
               "name": "WEBSITES_PORT",
-              "value": "8000"
+              "value": "80"
             },
             {
               "name": "PORT",
-              "value": "8000"
+              "value": "80"
             },
             {
               "name": "WEBSITES_ENABLE_APP_SERVICE_STORAGE",
