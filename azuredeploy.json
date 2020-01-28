@@ -224,7 +224,6 @@
       "kind": "app,linux,container",
       "location": "[variables('location')]",
       "dependsOn": [
-        "[resourceId('Sendgrid.Email/accounts', variables('sendgridAccountName'))]",
         "[resourceId('Microsoft.DBforPostgreSQL/servers/', variables('databaseServerName'))]",
         "[resourceId('Microsoft.Insights/components', variables('analyticsName'))]",
         "[resourceId('Microsoft.Web/serverfarms', variables('appServicePlanName'))]"
