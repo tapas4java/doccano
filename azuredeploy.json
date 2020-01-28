@@ -147,23 +147,6 @@
   },
   "resources": [
     {
-      "name": "[variables('sendgridAccountName')]",
-      "type": "Sendgrid.Email/accounts",
-      "apiVersion": "2015-01-01",
-      "location": "[variables('location')]",
-      "plan": {
-        "name": "[parameters('sendgridSku')]",
-        "publisher": "Sendgrid",
-        "product": "sendgrid_azure",
-        "promotionCode": ""
-      },
-      "properties": {
-        "acceptMarketingEmails": false,
-        "email": "[parameters('adminContactEmail')]",
-        "password": "[parameters('adminPassword')]"
-      }
-    },
-    {
       "type": "Microsoft.Insights/components",
       "apiVersion": "2015-05-01",
       "name": "[variables('analyticsName')]",
